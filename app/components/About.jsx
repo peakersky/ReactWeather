@@ -16,6 +16,6 @@ var About = (props) => {
         <p>Welcome to the About page!</p>
       </div>
   )
-}
+};
 
 module.exports = About;
