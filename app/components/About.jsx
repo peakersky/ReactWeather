@@ -16,7 +16,6 @@ var About = (props) => {
                   - I used the Open Weather Map to search for weather data by city.
               </li>
           </ul>
-
       </div>
   )
 };
