@@ -31,7 +31,7 @@ module.exports = {
             Examples: 'app/components/Examples.jsx',
             ErrorModal: 'app/components/ErrorModal.jsx',
             openWeatherMap: 'app/api/openWeatherMap.jsx',
-            applicationStyles: 'app/styles/app.css'
+            applicationStyles: 'app/styles/app.scss'
         },
         extensions: ['', '.js', '.jsx']
     },
@@ -45,6 +45,9 @@ module.exports = {
                 test: /\.jsx?$/, // want to get the extension filename.
                 exclude: /(node_modules|bower_components)/ // Choose which folders to exclude from running through webpack
             }
+            // {
+            //     loaders: ['style', 'css', 'sass'], test: /\.scss$/
+            // }
         ]
     },
     devtool: 'inline-source-map'
